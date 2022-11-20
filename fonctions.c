@@ -25,6 +25,7 @@ extern NOEUD* adjectifs;
 extern NOEUD* adverbes;
 
 ////////////////////////////////////////////////////////////////////////////////
+
 void charger_dictionnaire()
 {
     FILE *fp = fopen(DICTIONNAIRE, "r");
